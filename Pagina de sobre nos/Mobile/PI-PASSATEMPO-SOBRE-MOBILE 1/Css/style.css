@@ -161,7 +161,7 @@ body {
         display:block;
     }
 
-    article h1{
+    article#sobre-nos h1{
         color: red;
         text-decoration: underline;
         margin-top: 12%;
@@ -169,7 +169,7 @@ body {
         width: 50%;
     }
 
-    article p{
+    article#sobre-nos p{
         text-align: left;
         box-sizing: border-box;
         margin-left: 2%;
@@ -190,14 +190,63 @@ body {
 
     }
 
+/* Página de reconhecimento */
+
+#Reconhecimento {
+    margin-top: 6%;
+}
+
+#quadrado {
+    background-color: #F1E8E8;
+    width: 100%;
+    height: 100%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+article#Reconhecimento h1{
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.itau-certificado {
+    display: flex;
+    height: 50%;
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.itau-texto {
+    text-align: left;
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+
+.folhaSp-cetificado {
+    display: flex;
+    height: 50%;
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.folhaSP-texto {
+    text-align: left;
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: 15%;
+    margin-top: 2%;
+}
 
 
 
-
-
-
-
-
-
-
-
+/*     display: inline-block; */

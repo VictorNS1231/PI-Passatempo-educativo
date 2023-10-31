@@ -4,7 +4,8 @@
 }
 
 body {
-    size: 100%;
+    padding:0;
+    margin:0;
 }
 
 #navegador-pagina {
@@ -154,8 +155,8 @@ body {
         border-radius: 40px;
     
     }
- /* Página de conteúdo do site  */
 }
+ /* Página de conteúdo do site  */
 
     article {
         display:block;
@@ -198,8 +199,8 @@ body {
 
 #quadrado {
     background-color: #F1E8E8;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     margin-left: 2%;
     margin-top: 5%;
 }
@@ -214,6 +215,10 @@ article#Reconhecimento h1{
 
 }
 
+#conteudo-reconhecimento {
+    display: flex;
+}
+
 .itau-certificado {
     display: flex;
     height: 50%;
@@ -223,11 +228,12 @@ article#Reconhecimento h1{
 }
 
 .itau-texto {
-    text-align: left;
+    display: flex;
     box-sizing: border-box;
     width: 50%;
-    margin-left: 15%;
-    margin-top: 2%;
+    margin-left: -75%;
+    margin-top: 53%;
+    
 }
 
 
@@ -235,18 +241,38 @@ article#Reconhecimento h1{
     display: flex;
     height: 50%;
     width: 30%;
-    margin-left: 15%;
     margin-top: 2%;
+    margin-left: 15%;
 }
 
 .folhaSP-texto {
+    display: flex;
     text-align: left;
     box-sizing: border-box;
     width: 50%;
-    margin-left: 15%;
-    margin-top: 2%;
+    margin-left: 7%;
+    margin-top: 30%;
 }
 
+#australia-certificado {
+    height: 50%;
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 2%; 
+}
 
+.australia-texto {
+    display: flex;
+    box-sizing: border-box;
+    width: 50%;
+    margin-top: 16%;
+    margin-left: -30%;
+}
 
-/*     display: inline-block; */
+.australia-texto2 {
+    display: flex;
+    box-sizing: border-box;
+    width: 50%;
+    margin-top: 0%;
+    margin-left: 10%;
+}

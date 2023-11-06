@@ -1,0 +1,74 @@
+/* Patrocinadores  */
+
+#Patrocinadores {
+    margin-top: -56%;
+}
+
+#Patrocinadores h1 {
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    margin-left: auto;
+    bottom: 5%;
+}
+
+#quadrado-patrocinadores {
+    display:block;
+    /* background-color:  #ffffec; */
+    width: 100%;
+    height: auto;
+    margin-left: 1%;
+    margin-top: 5%;
+    /* border: 6px solid; */
+    border-color: #090000;
+}
+
+#logos {
+    display: flex;
+    height: 5%;
+    width: 5%;
+    margin-top: 10%;
+}
+
+#logos1 {
+    display: flex;
+    height: 5%;
+    width: 5%;
+    margin-top: 5%;
+}
+#logos2 {
+    display: flex;
+    height: 5%;
+    width: 5%;
+    margin-top: 5%;
+}
+
+.logo-thales {
+    margin-left: 100%;
+}
+
+.logo-firmenich {
+    margin-left: 100%;
+}
+
+.logo-anglo {
+    margin-left: 100%;
+}
+
+.logo-australian {
+    margin-left: 200%;
+}
+
+
+.logo-bayer {
+    margin-left: 100%;
+}
+
+
+.logo-TAM {
+    margin-left: 200%;
+}
+
+.logo-adeste {
+    margin-left: 200%;
+}

@@ -1,0 +1,81 @@
+/* rodape */
+
+#rodape {
+    background-color: #ffb300;
+    background-attachment: scroll;
+    height: auto;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.logo-fim {
+    height: 10%;
+    width: 20%;
+    justify-content: center;
+    display: flex;
+    margin-left: 2%;
+}
+
+#rodape-texto h3 {
+    font-size: 55%;
+    text-align: left;
+    margin-top: 8;
+
+}
+
+#rodape-texto h5 {
+    font-size: 55%;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+#rodape-imagens {
+    margin-top: 11%;
+}
+
+.logo-youtube {
+    height: 5%;
+    width: 15%;
+    top: 5%;
+    margin-top: 2%;
+    margin-left: 14%;
+}
+
+.logo-insta {
+    height: 5%;
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 14%;
+}
+
+.logo-face {
+    height: 5%;
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 14%;
+}
+
+.logo-link {
+    height: 5%;
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 14%;
+    margin-bottom: 2%; 
+}
+
+.logo-flick {
+    height: 5%;
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 14%;
+    margin-bottom: 2%; 
+}
+
+.logo-twitter {
+    height: 5%;
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 14%;
+    margin-bottom: 2%; 
+}
+

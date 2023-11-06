@@ -1,0 +1,33 @@
+ /* Página de conteúdo do site  */
+
+ main {
+    overflow-x: hidden
+}
+
+article {
+    display:block;
+}
+article#sobre-nos h1{
+    color: red;
+    text-decoration: underline;
+    margin-top: 12%;
+    margin-left: 2%;
+    width: 50%;
+}
+article#sobre-nos p{
+    text-align: left;
+    box-sizing: border-box;
+    margin-left: 2%;
+    width: 80%;
+}
+.botao-sobre-eletiva {
+    height: auto;
+    width: 100%;
+    margin-top: 15%;
+} 
+
+article#sobre-nos {
+    background-image: url("../imagens-sobre/image-507.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,79 @@
+/* Página de reconhecimento */
+#Reconhecimento {
+    margin-top: 6%;
+}
+#quadrado {
+    display:block;
+    background-color: #F1E8E8;
+    width: auto;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 5%;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 50px;
+}
+article#Reconhecimento h1{
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+#conteudo-reconhecimento {
+    display: flex;
+}
+.itau-certificado {
+    display: flex;
+    height: 50%;
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+.itau-texto {
+    display: flex;
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: -75%;
+    margin-top: 53%;
+    
+}
+.folhaSp-cetificado {
+    display: flex;
+    height: 50%;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.folhaSP-texto {
+    display: flex;
+    text-align: left;
+    box-sizing: border-box;
+    width: 50%;
+    margin-left: 7%;
+    margin-top: 30%;
+}
+#australia-certificado {
+    display: flex;
+    height: 50%;
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 2%; 
+}
+.australia-texto {
+    display: flex;
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    margin-top: 16%;
+    margin-left: -30%;
+}
+.australia-texto2 {
+    display: flex;
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    margin-top: 0%;
+    margin-left: 10%;
+}

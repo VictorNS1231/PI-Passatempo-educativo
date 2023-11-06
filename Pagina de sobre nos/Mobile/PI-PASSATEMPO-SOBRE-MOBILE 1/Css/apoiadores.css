@@ -1,0 +1,100 @@
+/* Apoiadores e parceiros */
+
+#Apoiadores h2 {
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    margin-left: -10%;
+    bottom: 5%;
+    width: 120%;
+}
+
+#quadrado-apoiadores {
+    display:block;
+    /* background-color:  #ffffec; */
+    width: 100%;
+    height: auto;
+    margin-left: 1%;
+    margin-top: 5%;
+    /* border: 1px solid; */
+    border-color: #090000;
+}
+
+#logos-apoiador {
+    display: flex;
+    height: 15%;
+    width: 15%;
+    margin-top: 20%;
+}
+
+#logos-apoiador1 {
+    display: flex;
+    margin-top: -15%;
+}
+#logos-apoiador2 {
+    display: flex;
+    margin-top: 5%;
+}
+
+.logo-voith {
+    height: 100%;
+    width: 150%;
+    margin-top: -80%;
+    margin-left: 120%;
+}
+
+.logo-elefante  {
+    height: 100%;
+    width: 180%;
+    margin-top: -150%;
+    margin-left: 100%;
+}
+
+.logo-hand {
+    height: 40%;
+    width: 40%;
+    margin-left: 2%;
+}
+
+.logo-malwee {
+    margin-top: -25%;
+    height: 60%;
+    width: 60%;
+    margin-left: 1%;
+}
+
+
+.logo-moderna {
+    margin-top: -20%;
+    height: 40%;
+    width: 40%;
+    margin-left: 2%;
+}
+
+
+.logo-aventura {
+    margin-top: -25%;
+    height: 20%;
+    width: 20%;
+    margin-left: 2%;
+}
+
+.logo-jaragua {
+    margin-top: -30%;
+    height: 40%;
+    width: 40%;
+    margin-left: 0%;
+}
+
+/* Extensão de imagem  */
+
+#acessibilidade {
+    margin-top: 5%;
+}
+
+.imagem-acessibilidade {
+    height: 10%;
+    width: 100%;
+    margin-left: 1%;
+}
+

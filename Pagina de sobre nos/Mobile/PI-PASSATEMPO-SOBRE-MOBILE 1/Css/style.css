@@ -8,48 +8,55 @@ body {
     padding:0;
     margin:0;
 }
+header {
+    margin-left: 0%;
+}
+
 #navegador-pagina {
     background-color: #ffb300;
     font-family: McLaren;
     background-attachment: scroll;
+    display: flex;
     position: fixed;
+    height: auto;
     width: 100%;
     top: 0%;
+    margin-left: 0%;
 }
+
+
 .menu-toggle {
-    display: none;
     flex-direction: column;
     cursor: pointer;
     justify-content: center;
     display: flex;
-    align-items: center;
-    left: 5%;
+    align-items: left;
+    margin-right: auto;
+    height: auto;
+    width: 7%;
+    
 }
 .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #333;
-    margin: 3px 0;
-}
-.bar2{
-    width: 25px;
-    height: 3px;
-    background-color: #333;
-    margin: 3px 0;
+    background-color: #000000;
+    margin: 10% 0;
+    width: 100%;
+    height: 12%;
+    /* width: 25px;
+    height: 3px; */
 }
 .menu {
     display: none;
 }
 .menu.active {
     display: inline-block;
-    width: 65%;
     margin-left: 0;
-    margin-top: 0%;
+    margin-top: auto;
     border: 1px solid black;
+    height: auto;
+    width: 65%;
 }
-@media screen and (max-width: 10000px){
     #navegador-pagina{
-        font-size: 10px;
+        font-size: 10%;
     }
     header {
         display: flex;
@@ -65,10 +72,15 @@ body {
         width: 1000;
     }
     
+    #logo-botao  {
+        height: auto;
+        width: 17%;
+        margin-left: 0%;        
+    }
+
     .logo-inicio {
-    
-        height: 40px;
-        width: 80px;
+        height: auto;
+        width: 100%;
         justify-content: center;
         display: flex;
         align-items: center;
@@ -87,7 +99,7 @@ body {
     }
     .menu-toggle-projeto {
         display: flex;
-        height: 3px;
+        height: 10%;
         width: 100%;
     }
     .menu {
@@ -110,7 +122,6 @@ body {
     .menu p:last-child{
         border-bottom: none;
     }
-}
 @media screen and (min-width: 10000px){
     #navegador-pagina{
         font-size: 22px;
